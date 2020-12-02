@@ -96,5 +96,7 @@ The euruka server has been pushed to docker hub with port 8761 and deployed on k
 The deployment file for the eureka server on Kubernetes can be found here: 
 [deployment.yml](clusters/deployment.yml)
 
+![Kubernetes Eureka](assets/kubernetesEureka.PNG)
+
 ##
 Software Development @ Copenhagen Business Academy, Denmark 2020
