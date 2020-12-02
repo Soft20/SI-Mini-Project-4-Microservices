@@ -91,9 +91,10 @@ Valid `usernames`:
 </p>
 
 ## Deployment
+The euruka server has been pushed to docker hub with port 8761 and deployed on kubernetes port 30005.
 
-
-[deployment.yml](deployment.yml)
+The deployment file for the eureka server on Kubernetes can be found here: 
+[deployment.yml](clusters/deployment.yml)
 
 ##
 Software Development @ Copenhagen Business Academy, Denmark 2020
