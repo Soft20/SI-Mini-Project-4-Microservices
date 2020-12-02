@@ -1,15 +1,15 @@
-package dk.dd.carrating;
+package dk.dd.carsearch;
 
-import lombok.*;
-import org.springframework.data.mongodb.core.mapping.Document;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @RequiredArgsConstructor
-@Document
 public class Rating {
     String id;
-    @Getter
     @NonNull String username;
     @NonNull int carId;
     @NonNull int rating;

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="rating" uuid="cb89dd5a-4463-4cca-927b-5ec19b2d0bc8">
-      <driver-ref>h2.unified</driver-ref>
+    <data-source source="LOCAL" name="@localhost" uuid="faa9c2e1-e96f-4661-acd7-11d132fbd67b">
+      <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.h2.Driver</jdbc-driver>
-      <jdbc-url>jdbc:h2:mem:rating</jdbc-url>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27017</jdbc-url>
     </data-source>
   </component>
 </project>

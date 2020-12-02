@@ -1,20 +1,20 @@
 package dk.dd.carrating;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
+import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.*;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
 @RequiredArgsConstructor
-@Entity
-public class User
-{
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-    @NonNull private String name;
+@Document
+public class User {
+    String id;
+    @NonNull
+    @Indexed(unique = true)
+    String username;
+    @Getter
+    List<Integer> cars;
 }
