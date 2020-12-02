@@ -90,7 +90,7 @@ Valid `usernames`:
     <img src="assets/own-ratings.png" alt="get car rating image">
 </p>
 
-## Deployment
+## Deployment on Docker & Kubernetes
 The euruka server has been pushed to docker hub with port 8761 and deployed on kubernetes port 30005.
 
 The deployment file for the eureka server on Kubernetes can be found here: 
