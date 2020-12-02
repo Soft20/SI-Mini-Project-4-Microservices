@@ -19,4 +19,8 @@ public class Car
         @NonNull private String brand;
         @NonNull private int year;
         @NonNull private long km;
+
+        public void setId(Long id) {
+                this.id = id;
+        }
 }

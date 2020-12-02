@@ -12,4 +12,17 @@ public class Car
         @NonNull private String brand;
         @NonNull private int year;
         @NonNull private long km;
+
+        public String getBrand() {
+                return brand;
+        }
+        public Long getId() {
+                return id;
+        }
+        public long getKm() {
+                return km;
+        }
+        public int getYear() {
+                return year;
+        }
 }
