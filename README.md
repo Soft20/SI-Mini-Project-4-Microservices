@@ -92,6 +92,8 @@ Valid `usernames`:
 
 ## Deployment on Docker & Kubernetes
 The euruka server has been pushed to docker hub with port 8761 and deployed on kubernetes port 30005.
+Whenever the other services were deployed, the eureka server could not detect the other services.. However when they're run locally, the deployed eureka server can gain access to them.
+We believe there's a solution to the connection, but have not yet solved it. The theory right now is, that they have to be connected on the same "overlay" network.
 
 The deployment file for the eureka server on Kubernetes can be found here: 
 [deployment.yaml](clusters/deployment.yaml)
