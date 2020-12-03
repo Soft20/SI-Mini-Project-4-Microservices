@@ -94,7 +94,7 @@ Valid `usernames`:
 The euruka server has been pushed to docker hub with port 8761 and deployed on kubernetes port 30005.
 
 The deployment file for the eureka server on Kubernetes can be found here: 
-[deployment.yml](clusters/deployment.yml)
+[deployment.yml](clusters/deployment.yaml)
 
 ![Kubernetes Eureka](assets/kubernetesEureka.PNG)
 
