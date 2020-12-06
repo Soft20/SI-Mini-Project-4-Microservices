@@ -13,7 +13,7 @@ Extend the rent-a-car application by adding a new service - user rating of cars.
 - [x] the ratings they selves have given earlier
 
 ### Task 2
- - [ ] Deploy your microservices application in Kubernetes and explore its behavior.
+ - [x] Deploy your microservices application in Kubernetes and explore its behavior.
 
 ## The Service
 ### Execution
